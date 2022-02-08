@@ -767,30 +767,32 @@
                             </div>
                         </div>
                     </div>
-                    <form action="" class="contact_form grid">
+                    <form action="https://formspree.io/f/xknyjagq" method="POST" class="contact_form grid">
                         <div class="contact_inputs grid">
                             <div class="contact_content">
                                 <label for="" class="contact_label">Nome</label>
-                                <input type="text" class="contact_input">
+                                <input type="text" class="contact_input" >
                             </div>
                             <div class="contact_content">
-                                <label for="" class="contact_label">Email</label>
-                                <input type="email" class="contact_input">
+                                <label for="" class="contact_label">Email
+                                    <input type="email" class="contact_input" name="_replyto">
+                                </label>
+                                </div>
                             </div>
-                        </div>
                         <div class="contact_content">
                             <label for="" class="contact_label">Projeto</label>
                             <input type="text" class="contact_input">
                         </div>
                         <div class="contact_content">
-                            <label for="" class="contact_label">Menssagem</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+                            <label for="" class="contact_label">Mensagem
+                                <textarea name="message" id="" cols="0" rows="7" class="contact_input"></textarea>
+                            </label>
                         </div>
                         <div>
-                            <a href="#" class="button button--flex">
+                            <button type="submit" class="button button--flex">
                                 Beer me!
                                 <i class="uil uil-message button_icon"></i>
-                            </a>
+                            </button>
                         </div>
                     </form>
                 </div>
