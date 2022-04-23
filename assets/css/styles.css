@@ -548,17 +548,17 @@ img {
 .skills_spanish {
   width: 95%;
 }
-.skills_ps {
-  width: 85%;
+.skills_pssql {
+  width: 50%;
 }
-.skills_tp {
-  width: 90%;
+.skills_rest {
+  width: 70%;
 }
-.skills_figma {
-  width: 60%;
+.skills_junit {
+  width: 75%;
 }
-.skills_miro {
-  width: 80%;
+.skills_softskills {
+  width: 95%;
 }
 
 .skills_close .skills_list {
